@@ -1,0 +1,13 @@
+%center {
+  display: flex;
+}
+
+body{
+  background-color: #fff;
+  @extend %center;
+  color: #61dafb;
+}
+
+p{
+  color: black;
+}

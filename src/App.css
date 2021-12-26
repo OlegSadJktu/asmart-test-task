@@ -1,31 +1,119 @@
+@import "styles/fonts.css";
+@import "styles/bootstrap.min.css";
 .App {
   text-align: center;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  color: #2A2A2A;
+}
+
+.navigation-container .navigation-phone div, .navigation-container .navigation-phone, .navigation-container .navigation-menu div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: white;
+}
+
+.main-container {
+  width: 1200px;
+  margin: auto;
+}
+.main-container .side-margins {
+  margin: 0 40px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s alternate;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  margin-bottom: 50px;
+}
+header .header-logo {
+  padding: 20px;
+}
+header .header-logo .header-logo-img {
+  width: 100px;
+}
+header .header-menu .row {
+  height: 100%;
+}
+header .header-menu .row .col {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+header .navigation-phone {
+  display: flex;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  padding-top: 20px;
+  font-family: Rubik, sans-serif;
+  color: #595959;
+  background-color: #F9F9F9;
+}
+footer .information img {
+  margin-bottom: 20px;
+}
+footer .information .row {
+  padding-right: 40px;
+}
+footer .information .row .col-auto {
+  margin: 10px 0;
+}
+footer .contacts .contact-with-us {
+  font-weight: 500;
+  color: #2A2A2A;
+  margin: 10px;
+}
+footer .contacts .row {
+  margin: 10px 0;
+}
+footer .social-networks div {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: 0 15px;
+}
+.navigation-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 50px;
+}
+.navigation-container .row {
+  flex: 1;
+}
+.navigation-container .navigation-logo {
+  padding: 20px;
+}
+.navigation-container .navigation-logo .navigation-logo-img {
+  width: 100px;
+}
+.navigation-container .navigation-menu {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin: 0 60px;
+}
+.navigation-container .navigation-menu div {
+  padding: 10px;
+  flex: 1 300px;
+}
+.navigation-container .navigation-menu div a {
+  font-size: 16px;
+}
+.navigation-container .navigation-phone div span {
+  margin: 8px;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +124,5 @@
     transform: rotate(360deg);
   }
 }
+
+/*# sourceMappingURL=App.css.map */

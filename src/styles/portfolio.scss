@@ -1,0 +1,104 @@
+@import "fonts.css";
+
+.container{
+  font-family: Rubik, sans-serif;
+
+  .left-menu{
+    hr {
+      border: none;
+      border-top: 3px solid #DDDDDD;
+      margin: 20px 0;
+
+    }
+  }
+  main{
+    padding: 0 20px;
+    h1, h2{
+      font-weight: 700;
+    }
+
+    h1{
+      font-size: 60px;
+    }
+    h2{
+      font-size: 36px;
+    }
+    h6{
+      color: #595959;
+      font-weight: normal;
+      font-size: 18px;
+      margin: 20px 0;
+    }
+  }
+
+}
+.ellipse-field{
+  margin: 10px 0;
+  background-color: #F5FFE9;
+  height: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  span{
+    margin-left: 20px;
+  }
+  &.bold {
+    font-weight: 500;
+  }
+}
+
+.projects-examples{
+  margin: 80px 0;
+  .row{
+    .site-link{
+      span{
+        font-weight: 400;
+      }
+      img{
+        margin-left: 10px;
+      }
+    }
+
+  }
+
+  hr{
+    border: 2px #DDDDDD solid;
+    margin: 12px;
+  }
+  .card-example{
+    border-radius: 10px;
+    padding: 40px 30px;
+    position: relative;
+    .new-project-banner{
+      position: absolute;
+      top: 20px;
+      right: 80px;
+      z-index: 1;
+    }
+    .image{
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .information{
+      height: 204px;
+      .title{
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .description{
+        font-size: 18px;
+      }
+      .view{
+        font-size: 16px;
+        position: absolute;
+        font-weight: 500;
+        left: 30px;
+        bottom: 30px;
+      }
+    }
+  }
+}

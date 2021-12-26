@@ -1,0 +1,94 @@
+@import "fonts.css";
+.container {
+  font-family: Rubik, sans-serif;
+}
+.container .left-menu hr {
+  border: none;
+  border-top: 3px solid #DDDDDD;
+  margin: 20px 0;
+}
+.container main {
+  padding: 0 20px;
+}
+.container main h1, .container main h2 {
+  font-weight: 700;
+}
+.container main h1 {
+  font-size: 60px;
+}
+.container main h2 {
+  font-size: 36px;
+}
+.container main h6 {
+  color: #595959;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.ellipse-field {
+  margin: 10px 0;
+  background-color: #F5FFE9;
+  height: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+}
+.ellipse-field span {
+  margin-left: 20px;
+}
+.ellipse-field.bold {
+  font-weight: 500;
+}
+
+.projects-examples {
+  margin: 80px 0;
+}
+.projects-examples .row .site-link span {
+  font-weight: 400;
+}
+.projects-examples .row .site-link img {
+  margin-left: 10px;
+}
+.projects-examples hr {
+  border: 2px #DDDDDD solid;
+  margin: 12px;
+}
+.projects-examples .card-example {
+  border-radius: 10px;
+  padding: 40px 30px;
+  position: relative;
+}
+.projects-examples .card-example .new-project-banner {
+  position: absolute;
+  top: 20px;
+  right: 80px;
+  z-index: 1;
+}
+.projects-examples .card-example .image {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-examples .card-example .information {
+  height: 204px;
+}
+.projects-examples .card-example .information .title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.projects-examples .card-example .information .description {
+  font-size: 18px;
+}
+.projects-examples .card-example .information .view {
+  font-size: 16px;
+  position: absolute;
+  font-weight: 500;
+  left: 30px;
+  bottom: 30px;
+}
+
+/*# sourceMappingURL=portfolio.css.map */
